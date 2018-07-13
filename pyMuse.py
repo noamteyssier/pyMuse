@@ -56,7 +56,7 @@ def main():
     p.add_argument('-sl', '--sl', help='words pronounced similarly')
     p.add_argument('-sp', '--sp', help='words spelled similarly')
     p.add_argument('-n', '--numSyllables', help='number of syllables to return')
-    p.add_argument('-wt', '--wordType', help='verb (v) / noun (n) / adjective (adj)')
+    p.add_argument('-p', '--wordType', help='Part of Speech to Search for [(n)oun, (v)erb, (adj)ective]')
     args = p.parse_args()
 
     url_base = 'https://api.datamuse.com/words?'
