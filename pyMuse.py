@@ -49,6 +49,9 @@ def print_out(results, numSyllables=None, wordType=None):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument('-rhy', '--rel_rhy', help='search for exact rhymes')
+    p.add_argument('-close', '--rel_nry', help='search for approximate rhymes')
+    p.add_argument('-syn', '--rel_syn', help='search for synonyms')
+    p.add_argument('-ant', '--rel_ant', help='search for antonyms')
     p.add_argument('-ml', '--ml', help='find words with related meaning')
     p.add_argument('-sl', '--sl', help='words pronounced similarly')
     p.add_argument('-sp', '--sp', help='words spelled similarly')
