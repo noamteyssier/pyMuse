@@ -2,7 +2,7 @@
 
 # A python wrapper for DataMuse API
 
-A quick way to search for rhymes, antonyms, synonyms and what have you from the commandline so you don't need to step away from a thought. 
+A quick way to search for rhymes, antonyms, synonyms and what have you from the commandline
 
 
 
