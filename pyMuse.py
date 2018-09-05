@@ -1,6 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-import requests, argparse, json, sys
+import requests
+import argparse
+import json
+import sys
 
 
 def build_query(args, nopeList):
@@ -43,7 +46,9 @@ def print_out(results, numSyllables=None, wordType=None):
             items = [j['word'], j['numSyllables']]
 
         # print tab delim
-        print '\t'.join([str(s) for s in items])
+        print(
+            '\t'.join([str(s) for s in items])
+            )
 
 
 def main():
